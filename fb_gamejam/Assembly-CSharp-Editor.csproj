@@ -74,6 +74,7 @@
      <None Include="Assets\Tiled2Unity\Tiled2Unity.export.txt" />
      <None Include="Assets\2DDL\2DLight\Shaders\CGTexturizing.shader" />
      <None Include="Assets\Tiled2Unity\Shaders\shaDepth.shader" />
+     <None Include="Assets\Tiled2Unity\Imported\map6.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Shaders\shaDiffuseDepth.shader" />
      <None Include="Assets\2DDL\2DLight\Shaders\OffsetShader.shader" />
      <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
