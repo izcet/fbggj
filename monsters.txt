@@ -12,9 +12,25 @@ special: can alert other monsters
 zombie
 mindless walker
 moves towards sound
-doesn't ignore dangerous terrain
+doesn't ignore dangerous terrain (fire?)
 
 venus flytrap
 stationary plant monster
 movement speed: none mph
 triggers an attack on anything that gets next to it
+
+anglerfish/glow worm
+monster that lures players and other monsters with light
+movement speed: (none to slow mph?)
+special: gives off light in all directions
+
+shadow
+insubstantial spook monster
+movement speed: speed mph 
+special: immune to dangerous terrain
+special: can be killed by a flashlight
+
+durgin (dragon)
+scaley lizard beast
+movement speed: quick bursts followed by periods of rest
+special: breathes fire. can create fire entity

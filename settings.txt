@@ -1,0 +1,21 @@
+Urban
+density: moderate
+terrain: patterned (grid or regular geometric shapes)
+lighting: regular/irregular. streetlights and car headlights
+
+Forest
+density: low
+terrain: random (trees in a sparse or dense pattern, rocks and other obstacles)
+lighting: low. maybe an occasional campfire, potentially moonlight?
+
+Caves
+Density: dense
+terrain: labrynthine caverns, winding and looping tunnels
+lighting: rare. occasional bioluminescent mushrooms.
+
+Indoors
+density: dense
+terrain: patterned (grid of rooms with doors and hallways)
+lighting: variable. lamps and lights in rooms, but the lights can be switched on or off
+
+

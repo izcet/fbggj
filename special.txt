@@ -1,0 +1,24 @@
+Mud
+special properties: physical etities have half movement speed while in mud
+(maybe entities leave footprints on ground when they get out of mud? doesn't lead monsters but may lead other players)
+
+Fire
+gives off illumination
+deals damage to monsters and humans
+
+Tree
+is an obstacle
+has branches
+can catch fire?
+
+Streetlamp
+is an obstacle
+gives off illumination
+
+Rock
+is an obstacle
+rocks
+
+Car
+has headlights that can give off illumination
+moves sometimes
