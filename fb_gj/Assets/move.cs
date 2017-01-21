@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript: MonoBehaviour
-{
-	public float movementSpeed = 10;
+public class move : MonoBehaviour {
 
-	void Update(){
-
-		transform.Translate(Vector3.right * movementSpeed * Time.deltaTime);
-
+	// Use this for initialization
+	void Start () {
+		
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		
 	}
 }
