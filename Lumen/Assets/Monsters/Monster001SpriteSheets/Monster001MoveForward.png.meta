@@ -1,0 +1,952 @@
+fileFormatVersion: 2
+guid: 0bd0cc87f3b5c4937a7f90fea41bfce7
+timeCreated: 1485035011
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Monster001MoveForward_0
+    21300002: Monster001MoveForward_1
+    21300004: Monster001MoveForward_2
+    21300006: Monster001MoveForward_3
+    21300008: Monster001MoveForward_4
+    21300010: Monster001MoveForward_5
+    21300012: Monster001MoveForward_6
+    21300014: Monster001MoveForward_7
+    21300016: Monster001MoveForward_8
+    21300018: Monster001MoveForward_9
+    21300020: Monster001MoveForward_10
+    21300022: Monster001MoveForward_11
+    21300024: Monster001MoveForward_12
+    21300026: Monster001MoveForward_13
+    21300028: Monster001MoveForward_14
+    21300030: Monster001MoveForward_15
+    21300032: Monster001MoveForward_16
+    21300034: Monster001MoveForward_17
+    21300036: Monster001MoveForward_18
+    21300038: Monster001MoveForward_19
+    21300040: Monster001MoveForward_20
+    21300042: Monster001MoveForward_21
+    21300044: Monster001MoveForward_22
+    21300046: Monster001MoveForward_23
+    21300048: Monster001MoveForward_24
+    21300050: Monster001MoveForward_25
+    21300052: Monster001MoveForward_26
+    21300054: Monster001MoveForward_27
+    21300056: Monster001MoveForward_28
+    21300058: Monster001MoveForward_29
+    21300060: Monster001MoveForward_30
+    21300062: Monster001MoveForward_31
+    21300064: Monster001MoveForward_32
+    21300066: Monster001MoveForward_33
+    21300068: Monster001MoveForward_34
+    21300070: Monster001MoveForward_35
+    21300072: Monster001MoveForward_36
+    21300074: Monster001MoveForward_37
+    21300076: Monster001MoveForward_38
+    21300078: Monster001MoveForward_39
+    21300080: Monster001MoveForward_40
+    21300082: Monster001MoveForward_41
+    21300084: Monster001MoveForward_42
+    21300086: Monster001MoveForward_43
+    21300088: Monster001MoveForward_44
+    21300090: Monster001MoveForward_45
+    21300092: Monster001MoveForward_46
+    21300094: Monster001MoveForward_47
+    21300096: Monster001MoveForward_48
+    21300098: Monster001MoveForward_49
+    21300100: Monster001MoveForward_50
+    21300102: Monster001MoveForward_51
+    21300104: Monster001MoveForward_52
+    21300106: Monster001MoveForward_53
+    21300108: Monster001MoveForward_54
+    21300110: Monster001MoveForward_55
+    21300112: Monster001MoveForward_56
+    21300114: Monster001MoveForward_57
+    21300116: Monster001MoveForward_58
+    21300118: Monster001MoveForward_59
+    21300120: Monster001MoveForward_60
+    21300122: Monster001MoveForward_61
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monster001MoveForward_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4214
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4214
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_2
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4214
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_3
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4214
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_4
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4214
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_5
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4214
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_6
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4214
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_7
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 4214
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3612
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_9
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3612
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_10
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3612
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_11
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3612
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_12
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3612
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_13
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3612
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_14
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3612
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_15
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 3612
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3010
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_17
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3010
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_18
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3010
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_19
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3010
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_20
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3010
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_21
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3010
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_22
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3010
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_23
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 3010
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2408
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_25
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2408
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_26
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2408
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_27
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2408
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_28
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2408
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_29
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2408
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_30
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2408
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_31
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2408
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1806
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_33
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1806
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_34
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1806
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_35
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1806
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_36
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1806
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_37
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1806
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_38
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1806
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_39
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1806
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1204
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_41
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1204
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_42
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1204
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_43
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1204
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_44
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1204
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_45
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1204
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_46
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1204
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_47
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1204
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 602
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_49
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 602
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_50
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 602
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_51
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 602
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_52
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 602
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_53
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 602
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_54
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 602
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_55
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 602
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_57
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_58
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_59
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_60
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Monster001MoveForward_61
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 600
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
