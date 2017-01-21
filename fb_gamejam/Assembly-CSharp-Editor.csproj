@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1B633094-9B1E-1D18-AED9-8F310EF71450}</ProjectGuid>
+    <ProjectGuid>{4C4A6C72-96C0-0C63-5093-1E6F0377BCDA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -46,6 +46,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\2DDL\2DLight\Editor\DynamicLightEditor.cs" />
+     <Compile Include="Assets\2DDL\2DLight\Editor\DynamicLightMenu.cs" />
+     <Compile Include="Assets\2DDL\2DLight\Editor\EditorUtils.cs" />
+     <Compile Include="Assets\2DDL\2DLight\Editor\SortingMethod.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Editor\CustomTiledImporterAttribute.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ICustomTiledImporter.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ImportTiled2Unity.Material.cs" />
@@ -58,22 +62,33 @@
      <Compile Include="Assets\Tiled2Unity\Scripts\Editor\SortingLayerExposedEditor.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Editor\Tiled2UnityMenuItems.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Editor\TiledAssetPostProcessor.cs" />
+     <None Include="Assets\2DDL\2DLight\Shaders\StencilObject.shader" />
+     <None Include="Assets\2DDL\2DLight\Shaders\DefaultTexturized.shader" />
+     <None Include="Assets\2DDL\Bugs\READ FIRST.txt" />
      <None Include="Assets\Tiled2Unity\Shaders\shaDefault.shader" />
      <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />
+     <None Include="Assets\2DDL\2DLight\Shaders\RadialGradientAlphaBlend.shader" />
+     <None Include="Assets\2DDL\2DLight\Shaders\DepthMask.shader" />
      <None Include="Assets\Tiled2Unity\Tiled2Unity.export.txt" />
+     <None Include="Assets\2DDL\2DLight\Shaders\CGTexturizing.shader" />
      <None Include="Assets\Tiled2Unity\Shaders\shaDepth.shader" />
      <None Include="Assets\Tiled2Unity\Shaders\shaDiffuseDepth.shader" />
-     <None Include="Assets\Tiled2Unity\Imported\cave1.tiled2unity.xml" />
+     <None Include="Assets\2DDL\2DLight\Shaders\OffsetShader.shader" />
      <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Textures\_ReadMe.txt" />
+     <None Include="Assets\Tiled2Unity\Imported\cave4.tiled2unity.xml" />
+     <None Include="Assets\2DDL\2DLight\Shaders\DefaultTexturizedWithAlpha.shader" />
+     <None Include="Assets\2DDL\2DLight\Shaders\StencilMask.shader" />
+     <None Include="Assets\2DDL\2DLight\Shaders\VertexColor.shader" />
+     <None Include="Assets\2DDL\2DLight\Shaders\Gradient-ZFighting.shader" />
      <None Include="Assets\Tiled2Unity\Shaders\shaColorKey.shader" />
      <None Include="Assets\Tiled2Unity\Shaders\shaDepthColorKey.shader" />
      <None Include="Assets\Tiled2Unity\License.txt" />
      <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>/Users/thendrick/Desktop/FbGJJ/fb_gamejam/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
@@ -98,9 +113,6 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -135,7 +147,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{54279926-97D2-6F96-955C-14B9A215D908}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{FB2BA808-F89A-BCD8-8172-4E7D1891BC8C}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
