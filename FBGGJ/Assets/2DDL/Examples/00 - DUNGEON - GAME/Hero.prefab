@@ -114,12 +114,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ignoreOneWayPlatformsThisFrame: 1
   _skinWidth: 0.02
-  platformMask: {}
-  triggerMask: {}
-  oneWayPlatformMask: {}
+  platformMask:
+    serializedVersion: 2
+    m_Bits: 16384
+  triggerMask:
+    serializedVersion: 2
+    m_Bits: 32768
+  oneWayPlatformMask:
+    serializedVersion: 2
+    m_Bits: 0
   slopeLimit: 30
   jumpingThreshold: 0.07
   slopeSpeedMultiplier:
+    serializedVersion: 2
     m_Curve:
     - time: -90
       value: 1.5
@@ -138,6 +145,7 @@ MonoBehaviour:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+    m_RotationOrder: 4
   totalHorizontalRays: 6
   totalVerticalRays: 4
 --- !u!114 &11438774

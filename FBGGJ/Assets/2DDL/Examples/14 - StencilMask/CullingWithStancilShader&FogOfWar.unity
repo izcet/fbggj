@@ -1172,21 +1172,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 302d2eb1ab4ab4ae395943b9209056dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Version: 312e332e33
+  DDLEvent_OnEnterFOV:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: DynamicLight2D.DynamicLightEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  DDLEvent_OnExitFOV:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: DynamicLight2D.DynamicLightEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  DDLEvent_InsideFOV:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: DynamicLight2D.DynamicLightEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  Version: 1.3.3
   SolidColor: 0
-  LightColor: {}
+  LightColor:
+    serializedVersion: 2
+    rgba: 0
   LightMaterial: {fileID: 2100000, guid: 8bfea969c3ba93d4b83235c6238b1c38, type: 2}
   strokeRender: 0.4
   LightRadius: 50
   Segments: 20
-  Layer: {}
+  Layer:
+    serializedVersion: 2
+    m_Bits: 256
   notifyGameObjectsReached: 0
+  objectsWithinSight: 0
   intelliderConvex: 0
   staticScene: 1
   lightMode: 0
   recalculateNormals: 0
   flipXYtoXZ: 0
   debugLines: 0
+  uv_Offset: {x: 0.5, y: 0.5}
+  uv_Scale: {x: 0.5, y: 0.5}
   vertexWorking: 0
   RangeAngle: 360
 --- !u!33 &1108920128

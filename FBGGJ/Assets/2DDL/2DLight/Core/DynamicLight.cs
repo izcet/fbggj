@@ -11,7 +11,7 @@
 
 		#endregion
 
-	//
+
 		[ExecuteInEditMode]
 
 		[RequireComponent (typeof (MeshFilter))]

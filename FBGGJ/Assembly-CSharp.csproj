@@ -46,9 +46,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Enemy\Enemy_Movement.cs" />
-     <Compile Include="Assets\Player\Player_Movement.cs" />
+     <Compile Include="Assets\Scripts\Camera_Movement.cs" />
+     <Compile Include="Assets\Scripts\Enemy_Movement.cs" />
      <Compile Include="Assets\Scripts\Flashlight.cs" />
+     <Compile Include="Assets\Scripts\Player_Movement.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
