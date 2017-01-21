@@ -1,0 +1,20 @@
+monster0
+floating ghosty thing
+cone vision
+movement speed: speed mph
+
+observer
+multi-eyeballed monstrosity
+360 vision
+movement speed: slow mph
+special: can alert other monsters
+
+zombie
+mindless walker
+moves towards sound
+doesn't ignore dangerous terrain
+
+venus flytrap
+stationary plant monster
+movement speed: none mph
+triggers an attack on anything that gets next to it
