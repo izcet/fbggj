@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class Flashlight : MonoBehaviour {
 
+	public float speed;
+	public float runSpeedMultiplier;
+
+	private float runSpeed;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -11,6 +16,6 @@ public class Flashlight : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+
 	}
 }
