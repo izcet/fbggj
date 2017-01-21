@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/sean_v1.unity
+- path: Assets/_Scenes/tony_v1.unity
   isLoaded: 1
   isActive: 1
