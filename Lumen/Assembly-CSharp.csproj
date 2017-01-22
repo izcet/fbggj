@@ -95,6 +95,8 @@
      <Compile Include="Assets\Scripts\Camera_Movement.cs" />
      <Compile Include="Assets\Scripts\Enemy_Movement.cs" />
      <Compile Include="Assets\Scripts\Flashlight.cs" />
+     <Compile Include="Assets\Scripts\Flashlight_Beam.cs" />
+     <Compile Include="Assets\Scripts\Player_Animation.cs" />
      <Compile Include="Assets\Scripts\Player_Movement.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\ImportBehaviour.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />

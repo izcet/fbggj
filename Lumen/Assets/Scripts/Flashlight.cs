@@ -34,7 +34,7 @@ public class Flashlight : MonoBehaviour {
 
 		Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint (Input.mousePosition + Vector3.forward * 10f);
 		float angle = AngleBetweenPoints (transform.position, mouseWorldPosition);
-		transform.rotation = Quaternion.Euler (new Vector3 (0f, 0f, angle));
+		transform.rotation = Quaternion.Euler (new Vector3 (0f, 0f, angle + 90.0f));
 	}
 
 	float AngleBetweenPoints (Vector2 a, Vector2 b) {
