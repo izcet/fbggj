@@ -92,10 +92,14 @@
      <Compile Include="Assets\2DDL\Examples\__Examples_Scripts\CharacterController2D\CharacterController2D.cs" />
      <Compile Include="Assets\2DDL\Examples\__Examples_Scripts\restoreStone.cs" />
      <Compile Include="Assets\2DDL\Examples\__Examples_Scripts\rotate.cs" />
+     <Compile Include="Assets\Monsters\AILerpEdit.cs" />
      <Compile Include="Assets\Scripts\Camera_Movement.cs" />
-     <Compile Include="Assets\Scripts\Enemy_Movement.cs" />
+     <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\Flashlight.cs" />
+     <Compile Include="Assets\Scripts\Flashlight_Beam.cs" />
+     <Compile Include="Assets\Scripts\Player_Animation.cs" />
      <Compile Include="Assets\Scripts\Player_Movement.cs" />
+     <Compile Include="Assets\Scripts\Timer.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\ImportBehaviour.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SpriteDepthInMap.cs" />
@@ -104,31 +108,42 @@
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledInitialShaderProperties.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
      <None Include="Assets\2DDL\2DLight\Shaders\StencilObject.shader" />
+     <None Include="Assets\AstarPathfindingEditor\Editor\EditorAssets\Materials\Navmesh.shader" />
      <None Include="Assets\2DDL\2DLight\Shaders\DefaultTexturized.shader" />
      <None Include="Assets\Tiled2Unity\Imported\map5.tiled2unity.xml" />
      <None Include="Assets\2DDL\Bugs\READ FIRST.txt" />
      <None Include="Assets\Tiled2Unity\Shaders\shaDefault.shader" />
      <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />
+     <None Include="Assets\Plugins\AstarPathfindingProject\Plugins\DotNetZip\DotNetZipLicense.txt" />
      <None Include="Assets\2DDL\2DLight\Shaders\RadialGradientAlphaBlend.shader" />
      <None Include="Assets\2DDL\2DLight\Shaders\DepthMask.shader" />
      <None Include="Assets\Tiled2Unity\Tiled2Unity.export.txt" />
+     <None Include="Assets\Plugins\AstarPathfindingProject\ExampleScenes\Materials\Projector Multiply.shader" />
      <None Include="Assets\2DDL\2DLight\Shaders\CGTexturizing.shader" />
      <None Include="Assets\Tiled2Unity\Shaders\shaDepth.shader" />
      <None Include="Assets\Tiled2Unity\Imported\map6.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Shaders\shaDiffuseDepth.shader" />
+     <None Include="Assets\Plugins\AstarPathfindingProject\ExampleScenes\Materials\DiffuseAlwaysVisible.shader" />
+     <None Include="Assets\Plugins\AstarPathfindingProject\Plugins\dependencies.txt" />
      <None Include="Assets\2DDL\2DLight\Shaders\OffsetShader.shader" />
+     <None Include="Assets\Plugins\AstarPathfindingProject\ExampleScenes\_Example Scenes.txt" />
      <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
+     <None Include="Assets\Plugins\AstarPathfindingProject\Readme_upgrading.txt" />
      <None Include="Assets\Tiled2Unity\Textures\_ReadMe.txt" />
+     <None Include="Assets\Plugins\AstarPathfindingProject\ExampleScenes\Materials\Projector Light.shader" />
      <None Include="Assets\Tiled2Unity\Imported\cave4.tiled2unity.xml" />
      <None Include="Assets\2DDL\2DLight\Shaders\DefaultTexturizedWithAlpha.shader" />
      <None Include="Assets\2DDL\2DLight\Shaders\StencilMask.shader" />
+     <None Include="Assets\Plugins\AstarPathfindingProject\Readme.txt" />
      <None Include="Assets\2DDL\2DLight\Shaders\VertexColor.shader" />
      <None Include="Assets\2DDL\2DLight\Shaders\Gradient-ZFighting.shader" />
      <None Include="Assets\Tiled2Unity\Shaders\shaColorKey.shader" />
      <None Include="Assets\Tiled2Unity\Shaders\shaDepthColorKey.shader" />
      <None Include="Assets\Tiled2Unity\License.txt" />
+     <None Include="Assets\AstarPathfindingEditor\Editor\EditorAssets\Materials\NavmeshOutline.shader" />
      <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
+     <None Include="Assets\Plugins\AstarPathfindingProject\link.xml" />
      <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
  <Reference Include="UnityEngine.Purchasing">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
@@ -154,6 +169,13 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
+ <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+ <HintPath>/Users/thendrick/Desktop/Lumen/Lumen/Assets/Plugins/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{4DDF2FEB-752B-2BB0-5351-127B6947051A}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -50,6 +50,21 @@
      <Compile Include="Assets\2DDL\2DLight\Editor\DynamicLightMenu.cs" />
      <Compile Include="Assets\2DDL\2DLight\Editor\EditorUtils.cs" />
      <Compile Include="Assets\2DDL\2DLight\Editor\SortingMethod.cs" />
+     <Compile Include="Assets\AstarPathfindingEditor\Editor\AnimationLinkEditor.cs" />
+     <Compile Include="Assets\AstarPathfindingEditor\Editor\AstarPathEditor.cs" />
+     <Compile Include="Assets\AstarPathfindingEditor\Editor\AstarUpdateChecker.cs" />
+     <Compile Include="Assets\AstarPathfindingEditor\Editor\AstarUpdateWindow.cs" />
+     <Compile Include="Assets\AstarPathfindingEditor\Editor\CustomGraphEditorAttribute.cs" />
+     <Compile Include="Assets\AstarPathfindingEditor\Editor\EditorGUIx.cs" />
+     <Compile Include="Assets\AstarPathfindingEditor\Editor\GraphEditors\GraphEditor.cs" />
+     <Compile Include="Assets\AstarPathfindingEditor\Editor\GraphEditors\GridGeneratorEditor.cs" />
+     <Compile Include="Assets\AstarPathfindingEditor\Editor\GraphEditors\NavMeshGeneratorEditor.cs" />
+     <Compile Include="Assets\AstarPathfindingEditor\Editor\GraphEditors\PointGeneratorEditor.cs" />
+     <Compile Include="Assets\AstarPathfindingEditor\Editor\GraphUpdateSceneEditor.cs" />
+     <Compile Include="Assets\AstarPathfindingEditor\Editor\Misc\AstarEnumFlagDrawer.cs" />
+     <Compile Include="Assets\AstarPathfindingEditor\Editor\ModifierEditors\RaycastModifierEditor.cs" />
+     <Compile Include="Assets\AstarPathfindingEditor\Editor\ModifierEditors\SmoothModifierEditor.cs" />
+     <Compile Include="Assets\AstarPathfindingEditor\Editor\SeekerEditor.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Editor\CustomTiledImporterAttribute.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ICustomTiledImporter.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ImportTiled2Unity.Material.cs" />
@@ -63,34 +78,45 @@
      <Compile Include="Assets\Tiled2Unity\Scripts\Editor\Tiled2UnityMenuItems.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Editor\TiledAssetPostProcessor.cs" />
      <None Include="Assets\2DDL\2DLight\Shaders\StencilObject.shader" />
+     <None Include="Assets\AstarPathfindingEditor\Editor\EditorAssets\Materials\Navmesh.shader" />
      <None Include="Assets\2DDL\2DLight\Shaders\DefaultTexturized.shader" />
      <None Include="Assets\Tiled2Unity\Imported\map5.tiled2unity.xml" />
      <None Include="Assets\2DDL\Bugs\READ FIRST.txt" />
      <None Include="Assets\Tiled2Unity\Shaders\shaDefault.shader" />
      <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />
+     <None Include="Assets\Plugins\AstarPathfindingProject\Plugins\DotNetZip\DotNetZipLicense.txt" />
      <None Include="Assets\2DDL\2DLight\Shaders\RadialGradientAlphaBlend.shader" />
      <None Include="Assets\2DDL\2DLight\Shaders\DepthMask.shader" />
      <None Include="Assets\Tiled2Unity\Tiled2Unity.export.txt" />
+     <None Include="Assets\Plugins\AstarPathfindingProject\ExampleScenes\Materials\Projector Multiply.shader" />
      <None Include="Assets\2DDL\2DLight\Shaders\CGTexturizing.shader" />
      <None Include="Assets\Tiled2Unity\Shaders\shaDepth.shader" />
      <None Include="Assets\Tiled2Unity\Imported\map6.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Shaders\shaDiffuseDepth.shader" />
+     <None Include="Assets\Plugins\AstarPathfindingProject\ExampleScenes\Materials\DiffuseAlwaysVisible.shader" />
+     <None Include="Assets\Plugins\AstarPathfindingProject\Plugins\dependencies.txt" />
      <None Include="Assets\2DDL\2DLight\Shaders\OffsetShader.shader" />
+     <None Include="Assets\Plugins\AstarPathfindingProject\ExampleScenes\_Example Scenes.txt" />
      <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
+     <None Include="Assets\Plugins\AstarPathfindingProject\Readme_upgrading.txt" />
      <None Include="Assets\Tiled2Unity\Textures\_ReadMe.txt" />
+     <None Include="Assets\Plugins\AstarPathfindingProject\ExampleScenes\Materials\Projector Light.shader" />
      <None Include="Assets\Tiled2Unity\Imported\cave4.tiled2unity.xml" />
      <None Include="Assets\2DDL\2DLight\Shaders\DefaultTexturizedWithAlpha.shader" />
      <None Include="Assets\2DDL\2DLight\Shaders\StencilMask.shader" />
+     <None Include="Assets\Plugins\AstarPathfindingProject\Readme.txt" />
      <None Include="Assets\2DDL\2DLight\Shaders\VertexColor.shader" />
      <None Include="Assets\2DDL\2DLight\Shaders\Gradient-ZFighting.shader" />
      <None Include="Assets\Tiled2Unity\Shaders\shaColorKey.shader" />
      <None Include="Assets\Tiled2Unity\Shaders\shaDepthColorKey.shader" />
      <None Include="Assets\Tiled2Unity\License.txt" />
+     <None Include="Assets\AstarPathfindingEditor\Editor\EditorAssets\Materials\NavmeshOutline.shader" />
      <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
+     <None Include="Assets\Plugins\AstarPathfindingProject\link.xml" />
      <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>/Users/seanwessmith/Desktop/fbggj/Lumen/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>/Users/thendrick/Desktop/Lumen/Lumen/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Purchasing">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
@@ -146,6 +172,9 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
+ <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+ <HintPath>/Users/thendrick/Desktop/Lumen/Lumen/Assets/Plugins/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
@@ -154,6 +183,8 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{4DDF2FEB-752B-2BB0-5351-127B6947051A}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{1A03CFE7-878A-02E8-DB28-2FB69F8A7C98}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>

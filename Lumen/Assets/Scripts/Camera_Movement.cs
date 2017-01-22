@@ -26,6 +26,5 @@ public class Camera_Movement : MonoBehaviour {
 	void Update () {
 		playerView = new Vector3 (script.transform.position.x, script.transform.position.y, -10.0f);
 		mainCam.transform.position = playerView;
-//		}
 	}
 }
