@@ -1,8 +1,0 @@
-<<<<<<< HEAD
-sceneSetups:
-- path: Assets/_Scenes/tony_v1.unity
-  isLoaded: 1
-  isActive: 1
-=======
-sceneSetups: []
->>>>>>> e4f792e154c729be32cde99120355ccfe21e5f71
